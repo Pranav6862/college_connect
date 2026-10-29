@@ -302,6 +302,7 @@ export default function App() {
             <main key={location.pathname}>
               <Routes>
                 <Route path="/" element={<Dashboard {...props} />} />
+                <Route path="/dashboard" element={<Dashboard {...props} />} />
                 <Route path="/projects" element={<Explore {...props} />} />
                 <Route
                   path="/projects/:id"
