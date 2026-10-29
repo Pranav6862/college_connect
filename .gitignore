@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Production build output
+dist/
+
+# OS and system files
+.DS_Store
+Thumbs.db
+.sudo_as_admin_successful
+
+# Redundant archives and duplicates
+College-Connect/
+College-Connect.zip
+
+# Logs & temp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
